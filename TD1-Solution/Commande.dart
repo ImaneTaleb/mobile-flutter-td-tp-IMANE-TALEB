@@ -27,10 +27,10 @@ class Commande {
     if(produits.isEmpty) {
       throw CommandeVideException();
     }
-    print("Bilan de commande :");
+    print("Détails de la commande :");
     print("ID : $id");
     produits.entries.map((element) {
-      return " -> " + element.key.nom + " ------------ " + element.value.toString() + " unité(s)";
+      return " -> " + element.key.nom + " ------------ " + element.value.toString() + " quantité ";
     }).forEach(print);
     print("Total : $total DH");
   }
