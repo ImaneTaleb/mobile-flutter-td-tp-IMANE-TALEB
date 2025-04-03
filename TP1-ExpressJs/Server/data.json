@@ -1,0 +1,30 @@
+{
+  "products": [
+    {
+      "name": "Lait",
+      "price": 100
+    },
+    {
+      "name": "Tea",
+      "price": 100
+    },
+    {
+      "name": "Tea",
+      "price": 100
+    }
+  ],
+  "orders": [
+    {
+      "product": "Lait",
+      "quantity": 2
+    },
+    {
+      "product": "Sucre",
+      "quantity": 3
+    },
+    {
+      "product": "Tea",
+      "quantity": 3
+    }
+  ]
+}
